@@ -88,15 +88,10 @@ docket-notes/
 ### Run Locally
 1. Clone the repo:
    ```bash
-   git clone https://github.com/asfand522004/docket-notes.git
+   git clone https://github.com/asfand522004/docket-note.git
    cd docket-notes
 
-2. Open index.html in your browser
-   OR run a local server:
-
-# Python 3
-python -m http.server 5500
-# then visit http://localhost:5500
+2. Open index.html in your browser OR run on with live server
 
 
 ---
@@ -115,7 +110,8 @@ Replace the placeholder key in script.js:
 🔗 Live Demo
 
 Once deployed, your app will be available at:
-👉 https://docket-notes.vercel.app
+  
+    https://docket-notes.vercel.app
 
 
 ---
