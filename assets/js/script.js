@@ -303,7 +303,7 @@ renderAllNotes();
 /* -------------------------
    Weather API Integration
 ------------------------- */
-const API_KEY = "24dd2ec3f7b44be3829152850250109";
+const API_KEY = "your_api_key_here";
 const weather = document.getElementById("weather");
 
 if (navigator.geolocation) {
@@ -345,3 +345,4 @@ async function fetchWeather(position) {
 function geoError() {
   weather.textContent = MESSAGES.GEO_DENIED;
 }
+
