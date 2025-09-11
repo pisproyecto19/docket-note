@@ -60,22 +60,36 @@ It comes with **user authentication, colorful notes, pin/unpin support, persiste
 ## 📂 Project Structure
 
 docket-notes/
-├── assets/
-│ ├── css/
-│ │ └── style.css
-│ │ └── style.map.css
-│ │ └── style.scss
-│ ├── js/
-│ │ └── script.js
-│ ├── img/
-│ │ └── profile_img.jpeg
-│
-├── utilities/
-│ └── utilities.mjs
-│
-├── index.html
-└── README.md
 
+├── assets/
+
+│ ├── css/
+
+│ │ └── style.css
+
+│ │ └── style.map.css
+
+│ │ └── style.scss
+
+│ ├── js/
+
+│ │ └── script.js
+
+│ ├── img/
+
+│ │ └── profile_img.jpeg
+
+│
+
+├── utilities/
+
+│ └── utilities.mjs
+
+│
+
+├── index.html
+
+└── README.md
 
 ---
 
