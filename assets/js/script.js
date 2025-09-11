@@ -303,46 +303,50 @@ renderAllNotes();
 /* -------------------------
    Weather API Integration
 ------------------------- */
-const API_KEY = "your_api_key_here";
+const API_KEY = "";
 const weather = document.getElementById("weather");
-
-if (navigator.geolocation) {
-  navigator.geolocation.getCurrentPosition(fetchWeather, geoError);
+if (!API_KEY || API_KEY === "your_api_key_here") {
+  weather.textContent =
+    "Weather unavailable (API key missing)";
 } else {
-  weather.textContent = MESSAGES.GEO_NOT_SUPPORTED;
-}
 
-async function fetchWeather(position) {
-  const { latitude, longitude } = position.coords;
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(fetchWeather, geoError);
+  } else {
+    weather.textContent = MESSAGES.GEO_NOT_SUPPORTED;
+  }
 
-  try {
-    const res = await fetch(
-      `http://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=${latitude},${longitude}&eqi=no`
-    );
-    const data = await res.json();
+  async function fetchWeather(position) {
+    const { latitude, longitude } = position.coords;
 
-    // Toggle between °C and °F on click
-    weather.addEventListener("click", () => {
-      const toggle = weather.classList.toggle("weatherIn");
-      weather.innerHTML = `
+    try {
+      const res = await fetch(
+        `http://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=${latitude},${longitude}&eqi=no`
+      );
+      const data = await res.json();
+
+      // Toggle between °C and °F on click
+      weather.addEventListener("click", () => {
+        const toggle = weather.classList.toggle("weatherIn");
+        weather.innerHTML = `
         <img src=${data?.current?.condition?.icon} alt="weather-icon"/>
         <p>${
           toggle ? `${data?.current?.temp_f} °F` : `${data?.current?.temp_c} °C`
         }</p>
       `;
-    });
+      });
 
-    // Default °C
-    weather.innerHTML = `
+      // Default °C
+      weather.innerHTML = `
       <img src=${data?.current?.condition?.icon} alt="weather-icon"/>
       <p>${data?.current?.temp_c} °C</p>
     `;
-  } catch (err) {
-    weather.textContent = MESSAGES.WEATHER_FETCH_ERROR;
+    } catch (err) {
+      weather.textContent = MESSAGES.WEATHER_FETCH_ERROR;
+    }
+  }
+
+  function geoError() {
+    weather.textContent = MESSAGES.GEO_DENIED;
   }
 }
-
-function geoError() {
-  weather.textContent = MESSAGES.GEO_DENIED;
-}
-
