@@ -132,10 +132,10 @@ Once deployed, your app will be available at:
 
 📸 Screenshots
 
-<img width="1915" height="923" alt="Screenshot 2025-09-11 101412" src="https://github.com/user-attachments/assets/042af700-4f91-42a8-bae0-688a3ad4acc6" />
-<img width="1912" height="917" alt="Screenshot 2025-09-11 101247" src="https://github.com/user-attachments/assets/8a5fb594-be9d-48d4-9740-e5d1ed7c591f" />
-<img width="1911" height="920" alt="Screenshot 2025-09-11 101230" src="https://github.com/user-attachments/assets/5b4e9208-293b-4f63-a70e-5699bd8c82d6" />
-<img width="1919" height="929" alt="Screenshot 2025-09-11 101315" src="https://github.com/user-attachments/assets/41151c85-f873-4be6-9a6c-331f2942c18e" />
+<img width="1915" height="923" alt="docket-note-registration-page, notes-app, notes" src="https://github.com/user-attachments/assets/042af700-4f91-42a8-bae0-688a3ad4acc6" />
+<img width="1912" height="917" alt="docket-note-login-page, notes-app, notes" src="https://github.com/user-attachments/assets/8a5fb594-be9d-48d4-9740-e5d1ed7c591f" />
+<img width="1911" height="920" alt="docket-note-login-page-with-error, notes-app, notes" src="https://github.com/user-attachments/assets/5b4e9208-293b-4f63-a70e-5699bd8c82d6" />
+<img width="1919" height="929" alt="docket-note-home-page, docket-note-notes-page, notes-app, notes" src="https://github.com/user-attachments/assets/41151c85-f873-4be6-9a6c-331f2942c18e" />
 
 
 
